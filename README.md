@@ -45,9 +45,8 @@ Created a Backend API using
 
 
 ### 2. List students with optional filter as query params for age and country (gets all with age>=given_age and have the country)
-- **URL:** `/api/students/`
+- **URL:** `https://library-management-backend-api-python.onrender.com/students?country=India&age=20`
 - **Method:** `GET`
-- **Query students**: `https://library-management-backend-api-python.onrender.com/students?country=India&age=20`
 - **Response body:** status_code - `200`
     ```json
     {
